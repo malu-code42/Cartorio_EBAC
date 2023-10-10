@@ -121,7 +121,8 @@ int main() //função principal - sempre é iniciado por ela
 		printf("Escolha a opçãoo desejada no menu:\n\n");
 		printf("\t1 - Registrar nomes\n");
 		printf("\t2 - Consultar os nomes\n");
-		printf("\t3 - Deletar os nomes\n\n"); 
+		printf("\t3 - Deletar os nomes\n\n");
+		printf("\t4- Sair do sistema\n\n");
 		printf("Selecione a opção desejada: "); //final do menu
 	
 		scanf("%d", &opcao); //a variável dessa vez é iniciada com o & pois agora estamos dentro de uma função sem a presença de uma string
@@ -142,6 +143,11 @@ int main() //função principal - sempre é iniciado por ela
 			
 			case 3:
 			deletar();
+			break;
+			
+			case 4:
+			printf ("Obrigado por utilizar nosso sistema!");
+			return 0;
 			break;
 			
 			default: //se não foi selecionado um dos cases acima
