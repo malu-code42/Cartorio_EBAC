@@ -1,2 +1,2 @@
 # Cartorio_EBAC
-Projeto inicial do curso de Ti da EBAC.
+Projeto inicial do curso full stack Java da EBAC.
